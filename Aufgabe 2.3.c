@@ -21,7 +21,6 @@ int istSchaltjahr2(int n) {
     }
 }
 
-
 //Ab hier beginnt das Programm
 int main() {
 	// time_t wird deklariert
@@ -38,8 +37,6 @@ int main() {
         }
     }
     time(&endzeit);
-
-
 
     printf("Für diese Berechnung wurden: %f Sekunden benötigt.\n", difftime(endzeit, startzeit));
     printf("Anzahl der Schaltjahre: %i \n\n", schaltjahre);
